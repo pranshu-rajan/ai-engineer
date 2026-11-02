@@ -267,7 +267,7 @@ def answer(question: str, top_k: int = TOP_K) -> dict
 Prompt shape:
 ```
 You are answering using ONLY the transcript excerpts below, which come from
-Pratyush's DSA lectures. The transcripts are auto-generated and may contain
+the course DSA lectures. The transcripts are auto-generated and may contain
 minor errors — read past obvious mis-transcriptions of technical terms.
 
 Rules:

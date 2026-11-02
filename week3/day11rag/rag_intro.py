@@ -15,8 +15,8 @@ model="llama-3.3-70b-versatile"
 
 # step 1
 knowledge_base={
-    "age" : " The age of pratyush is 25 years",
-    "net worth" : "The net worth of pratyush is 2000"
+    "age" : " The age of pranshu is 25 years",
+    "net worth" : "The net worth of pranshu is 2000"
 }
 
 # step 2 retreieval
@@ -47,5 +47,5 @@ def ask_llm(question):
     return answer
 
 
-question="what is pratyush's agge?"
+question="what is pranshu's agge?"
 print(ask_llm(question))

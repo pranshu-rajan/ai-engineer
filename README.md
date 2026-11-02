@@ -7,9 +7,9 @@
 [![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph-1C3C3C?style=for-the-badge)](https://langchain-ai.github.io/langgraph/)
 [![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 
-A hands-on, production-grade learning track and project portfolio documenting my journey to mastering **AI & LLM Engineering**.
+A hands-on, production-grade learning track and project portfolio documenting my personal journey to mastering **AI & LLM Engineering**.
 
-This repository is built following a rigorous industry-aligned curriculum ([Syllabus](Syllabus.md)): zero academic fluff, zero superficial wrapper demos, and a constant focus on **evaluation, production constraints, structured schemas, vector search, and autonomous agent loops**.
+This repository follows my self-directed curriculum: zero academic fluff, zero superficial wrapper demos, and a constant focus on **evaluation, production constraints, structured schemas, vector search, and autonomous agent loops**.
 
 ---
 
@@ -30,7 +30,7 @@ This repository is built following a rigorous industry-aligned curriculum ([Syll
 
 ### 1. 🎬 [YouTube Lecture Timestamp RAG Engine](week3/ytscraper/)
 - **Problem**: Standard RAG applications dump arbitrary text paragraphs without verifiable provenance.
-- **Solution**: A production RAG system over YouTube lecture playlists that returns concise answers grounded strictly in transcripts, accompanied by **clickable timestamp links that jump directly to the exact second in the lecture video**.
+- **Solution**: A production RAG system over technical YouTube lecture playlists that returns concise answers grounded strictly in transcripts, accompanied by **clickable timestamp links that jump directly to the exact second in the lecture video**.
 - **Tech Stack**: `faster-whisper` (batched CTranslate2 GPU/CPU transcription), time-window chunking, `BAAI/bge-m3` dense embeddings (1024-dim), **Qdrant Cloud** vector storage, and a **FastAPI + YouTube IFrame API** web interface.
 
 ### 2. 🛡️ [AI Proctor — Academic Integrity & Plagiarism Engine](week5/aiproctor/)
@@ -58,7 +58,6 @@ This repository is built following a rigorous industry-aligned curriculum ([Syll
 ```
 ├── .env.example              # Sample environment template (Groq, Qdrant, Tavily)
 ├── .gitignore                 # Comprehensive gitignore (hides .env, .venv, caches)
-├── Syllabus.md                # 8-week AI Engineer course curriculum
 ├── README.md                  # Master repository documentation
 │
 ├── week1/                     # LLM Fundamentals & API Mastery
@@ -159,4 +158,3 @@ uv run main.py
 
 - **Author**: Pranshu
 - **Focus**: AI Engineering / LLM Applications / Agentic Systems
-- **Track Curriculum**: [Syllabus.md](Syllabus.md)

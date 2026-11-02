@@ -181,11 +181,3 @@ def chat(request: ChatRequest):
     return {
         "answer": answer
     }
-
-
-
-
-# youtube.com
-# youtube.com/padho_with_pratyush
-# youtube.com/padho_with_pratyush/videos
-# youtube.com/padho_with_pratyush/playlists

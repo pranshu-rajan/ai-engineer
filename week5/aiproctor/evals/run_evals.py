@@ -9,7 +9,7 @@ Dataset (label = folder ka naam):
     dataset/human_messy/   -> insaan, messy code  (negative)
 File name format: <problem_id>__<kuch_bhi>.py   (problem_id se reference solutions milte hain)
 
-Apna code daalo: dataset/human_clean/longest_substring__pratyush.py -- dekho tum flag hote ho ya nahi.
+Apna code daalo: dataset/human_clean/longest_substring__custom.py -- dekho tum flag hote ho ya nahi.
 
 Run (aiproctor folder se):
     uv run evals/run_evals.py            # heuristic + reference match (free)

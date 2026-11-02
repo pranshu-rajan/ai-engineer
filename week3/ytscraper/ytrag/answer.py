@@ -31,7 +31,7 @@ from ytrag.models import Chunk
 _CLIENT: Groq | None = None
 
 SYSTEM_PROMPT = f"""You are answering using ONLY the transcript excerpts below, which come from
-Pratyush's DSA lectures. The transcripts are auto-generated and may contain
+the course DSA lectures. The transcripts are auto-generated and may contain
 minor errors — read past obvious mis-transcriptions of technical terms.
 
 Rules:
